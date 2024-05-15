@@ -14,7 +14,7 @@ public class LibretaCalificacion {
     private String estudiante;
     private double promedio;
     private String promedioCualitativo;
-    private double[] calificaciones;
+    private double[] calificaciones; // arreglo de doubles
     
 
     public LibretaCalificacion(String n, double[] c) {

@@ -14,7 +14,7 @@ import paquete01.LibretaCalificacion;
 public class Ejecutor {
     public static void main(String[] args) {
         // listado de variables para ingreso de datos por teclado
-        Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in); // se crea un objeto de scanner llamado entrada
         String nombreEstudiante;
         double [] calificacionesEstudiante;
         int numerocalificaciones;
