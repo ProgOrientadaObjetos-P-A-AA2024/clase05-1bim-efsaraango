@@ -13,6 +13,7 @@ public class EjemploDos {
         Calificacion c = new Calificacion(10, "Computación");
         Calificacion c2 = new Calificacion(9, "Electrónica");
         
+        // se le asigna los objetos en este arreglo
         Calificacion [] calificaciones = {c, c2};
         
         for (int i = 0; i < calificaciones.length; i++) {

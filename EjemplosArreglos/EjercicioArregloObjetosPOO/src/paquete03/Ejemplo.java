@@ -20,9 +20,10 @@ public class Ejemplo {
         
         for (int i = 0; i < calificaciones.length; i++) {
             Calificacion objetoCalificacion = calificaciones[i];
-            System.out.printf("%s - %.2f\n", 
+            System.out.printf("%s - %.2f\n ", 
                     objetoCalificacion.obtenerNombreMateria(),
-                    objetoCalificacion.obtenerNota());
+                    objetoCalificacion.obtenerNota()
+                    );
         }
         
     }
