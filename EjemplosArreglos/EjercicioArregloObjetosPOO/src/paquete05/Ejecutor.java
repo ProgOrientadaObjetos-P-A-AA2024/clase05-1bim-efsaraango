@@ -13,10 +13,17 @@ public class Ejecutor {
         Calificacion c2 = new Calificacion(10, "Lógica");
         Calificacion c3 = new Calificacion(10, "Literatura");
         
+        
+        
+        
         Profesor profesor1 = new Profesor("Tara Hernandez", "contratado");
         Profesor profesor2 = new Profesor("Gregory Walsh", "nombramiento");
         Profesor profesor3 = new Profesor("Kevin Page", "nombramiento");
         
+        // esto sobre escribe el valor de este atributo 
+        c1.establecerProfesor(profesor1);
+        c1.establecerProfesor(profesor2);
+        c1.establecerProfesor(profesor3);
                 
         Calificacion [] lista = {c1, c2, c3}; 
         

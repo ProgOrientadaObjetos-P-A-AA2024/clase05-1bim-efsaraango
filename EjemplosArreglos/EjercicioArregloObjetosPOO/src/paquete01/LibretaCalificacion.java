@@ -28,12 +28,19 @@ public class LibretaCalificacion {
     }
     
     public void establecerPromedio(){
+        
         double suma = 0;
         
         for (int i = 0; i < obtenerCalificaciones().length; i++) {
             suma = suma + obtenerCalificaciones()[i].obtenerNota();
             
         }
+        /*
+        for (int i = 0; i < obtenerCalificaciones().length; i++) {
+            Calificacion c = obtenerCalificacion()[i];
+            suma = suma + c.obtenerNota();
+            
+        }*/
         
         promedio = suma/obtenerCalificaciones().length;
     }

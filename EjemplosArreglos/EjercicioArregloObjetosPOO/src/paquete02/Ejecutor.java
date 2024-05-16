@@ -45,6 +45,7 @@ public class Ejecutor {
             materia = entrada.nextLine();
             System.out.printf("Ingrese calificación %d\n", i + 1);
             nota = entrada.nextDouble();
+            // limpieza 
             entrada.nextLine();
 
             // con las variables nota y nombreEstudiante se procede
